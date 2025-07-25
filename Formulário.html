@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+    label{
+        color: coral;
+    }
+    body{
+        background-color: white
+    }
+    .botão{
+        background-color: chartreuse;
+    }
+    </style>
 </head>
 <body>
     <form>
-        <label for="Usuário">Usuário</label>
+        <label style="color: coral;" for="Usuário">Usuário</label>
         <input id="Usuário" type="text"> <br/>
         <label for="Senha">Senha</label>
         <input id="Senha" type="password"/> <br/>
         <label for="Seu e-mail">Seu e-mail</label>
         <input id="Seu e-mail" type="email"/> <br />
-        <button type="submit">Cadastrar</button>
+        <button class="botão" type="submit">Cadastrar</button>
     </form>
+    
 </body>
 </html>
