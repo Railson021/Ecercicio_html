@@ -11,6 +11,13 @@
             body{
                 background-color: burlywood;
             }
+            .botãoLimpar{
+                background-color: rgb(231, 59, 16)
+                ;
+            }
+            .botãoEnviar{
+                background-color: rgb(23, 203, 50);
+            }
 </style>
 </head>
 <body>
@@ -19,8 +26,27 @@
         <label for="Usuário">Usuário</label>
         <input type="text" placeholder="Usuário"> <br />
         <label style="color: aqua;" for="Senha">Senha</label>
-        <input id="Senha" type="password" placeholder="Sua Senha">
-        <button type="submit">Enviar</button>
+        <input id="Senha" type="password" placeholder="Sua Senha"> <br />
+        <button class="botãoEnviar" type="submit">Enviar</button>
+        <button class="botãoLimpar" type="reset">limpar</button>
+        <h1>Faça seus comentários mais recentes</h1>
+        <p>
+            Nessa versão de celular é mais facil você aprender algo novo, e procurar melhorar seus conhecimenotos em relação ao seu novo projeto.
+            <main>
+                <h2>Projeto em react</h2>
+                <section>
+                        <Article>
+                    Novo projeto de react em a provação no senado de um novo mundo. Isso vai melhorar a esperiencia em um mundo de progração.
+                        </Article>
+                </section>
+                <h2>Formação em análise de dados</h2>
+                    <section>
+                        <article>
+                            Formação em análise de dados vem crescendo bastante nos ultimos tempos, isso causa um grande impacto no mundo da tecnologia.
+                        </article>
+                    </section>
+            </main>
+        </p>
     </form>
 </body>
 </html>
